@@ -43,6 +43,11 @@ nav{
     height : auto;
     width : 100%;
 }
+.image2{
+    height: 90vh;
+    width: 90vh;
+
+}
 
 
 @media (min-width : 992px){
