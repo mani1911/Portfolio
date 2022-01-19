@@ -19,12 +19,14 @@ nav{
     font-size : 1.30rem;
     color: white;
 }
-
-#about h1{
+#home{
+    background-image: url(background.png);
+}
+#home h1{
     letter-spacing : 3px;
     font-family: Lora;
 }
-#about h3,h2{
+#home h3,h2{
     letter-spacing : 2px;
     font-family : Lora;
 }
@@ -43,18 +45,44 @@ nav{
     height : auto;
     width : 100%;
 }
-.image2{
-    height: 90vh;
-    width: 90vh;
 
+.section{
+    margin-bottom : 10px;
+}
+
+.about{
+    background: rgb(24, 24, 24);
+    background-image: url(background1.png);
 }
 
 
-@media (min-width : 992px){
-    #fcleft{
-        border-right : 4px solid yellow;
-        border-top: 4px solid yellow;
-    }
-    
+.aboutme{
+    color :rgb(255, 248, 219);
+
+    letter-spacing : 2px;
+    font-family : Lora;
 }
+
+.aboutme:hover{
+    color : rgb(247, 255, 133);
+}
+
+.describe{
+    font-style: italic;
+    font-family : Lora;
+    color : pink;
+    line-height : 2;
+    letter-spacing: 1px;
+
+}
+.describe span{
+    font-weight: bold;
+    color :rgb(250, 211, 218);
+}
+
+.describe p::first-letter{
+    font-size : 50px;
+}
+
+
 
