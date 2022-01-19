@@ -83,6 +83,21 @@ nav{
 .describe p::first-letter{
     font-size : 50px;
 }
-
-
-
+.ig{
+    color : white;
+}
+.ig:hover {
+    color: pink;
+}
+.twit{
+    color : white;
+}
+.twit:hover {
+    color: 	#1DA1F2;
+}
+.lin{
+    color : white;
+}
+.lin:hover {
+    color: 	#fdd35d;
+}
