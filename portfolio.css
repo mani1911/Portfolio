@@ -143,7 +143,7 @@ nav{
 
 #Email{
     background: none;
-    border-color: rgb(172, 255, 117);
+    border: 4px solid aqua;
 }
 
 #Email text{
@@ -152,7 +152,7 @@ nav{
 
 #message{
     background: none;
-    border-color: rgb(172, 255, 117);
+    border: 4px solid aqua;
 }
 
 
