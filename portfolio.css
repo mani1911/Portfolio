@@ -47,10 +47,6 @@ nav{
     width : 100%;
 }
 
-.section{
-    margin-bottom : 0px;
-    margin-left: 0px;
-}
 .together{
     background-image:  url("workbgnd.png");
     background-repeat: no-repeat;
@@ -127,16 +123,34 @@ nav{
 
 .contact{
     background: black;
-    font-family: Lora;
+}
+
+.contact p{
+    font-family: Lato;
     letter-spacing: 2px;
-    font-style: italic;
+    font-size : 2rem;
+}
+.contact h5{
+    color : rgb(180, 180, 180);
+    line-height: 30px;
 }
 
 .contact h1{
     color :rgb(141, 139, 139)
 }
 
-.contact h2{
-    color:white;
+#Email{
+    background: none;
+    border-color: rgb(172, 255, 117);
 }
+
+#Email text{
+    color : white;
+}
+
+#message{
+    background: none;
+    border-color: rgb(172, 255, 117);
+}
+
 
