@@ -123,14 +123,16 @@ nav{
 
 .contact{
     background: black;
+    font-family: Lora;
 }
 
 .contact p{
-    font-family: Lato;
+
     letter-spacing: 2px;
     font-size : 2rem;
 }
 .contact h5{
+
     color : rgb(180, 180, 180);
     line-height: 30px;
 }
